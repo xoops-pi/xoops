@@ -1,0 +1,85 @@
+/* $Id: xoops.css 2576 2008-12-06 16:47:24Z beckmi $ */
+table {
+    width:      100%;
+}
+
+img {
+    border:     0;
+}
+
+img.center {
+    text-align:     center;
+    margin:         0 auto;
+    display:        block;
+    margin-top:     6px;
+    margin-bottom:  4px;
+}
+
+img.left {
+    text-align:     left;
+    float:          left;
+    margin:         2px 6px 2px 0;
+    clear:          left;
+}
+
+img.right {
+    float:          right;
+    text-align:     right;
+    margin:         2px 0 2px 6px;
+    clear:          right;
+}
+
+acronym, abbr, dfn {
+    cursor:         help;
+}
+
+#xoopsHiddenText {
+    visibility:         hidden;
+    color:              #000000;
+    font-weight:        normal;
+    font-style:         normal;
+    text-decoration:    none;
+}
+
+.pagneutral {
+    font-size:          10px;
+    width:              16px;
+    height:             19px;
+    text-align:         center;
+    background-image:   url(./images/pagneutral.gif);
+}
+
+.pagact {
+    font-size:          10px;
+    width:              16px;
+    height:             19px;
+    text-align:         center;
+    background-image:   url(./images/pagact.gif);
+}
+
+.paginact {
+    font-size:          10px;
+    width:              16px;
+    height:             19px;
+    text-align:         center;
+    background-image:   url(./images/paginact.gif);
+}
+
+
+
+/* For required elements in XOOPS form, can be overwritten in theme styles */
+.xoops-form-element-caption .caption-marker {
+    display:            none;
+}
+
+.xoops-form-element-caption-required .caption-marker {
+	background-color:   inherit;
+	padding-left: 	    2px;
+	color: 			    #ff0000;
+}
+
+.xoops-form-element-help {
+	font-size:		    .9em;
+    padding-top:        5px;
+    font-weight:        normal;
+}
