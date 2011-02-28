@@ -3,32 +3,5 @@ Xoops Engine code with legacy code
 /XoopsEngine
 The root directory for Xoops Engine code
 
-/XoopsEngine/docs
-Documents
-
-/XoopsEngine/htdocs
-Web docroot
-
-/XoopsEngine/lib
-Libraries
-
-/XoopsEngine/var
-System variable data
-
-/XoopsEngine/usr
-User or community contributed components, including apps/modules, plugins, applets, themes, etc.
-
-/XoopsEngine/usr/apps
-Xoops Engine apps, i.e. applications following new MVC
-
-/XoopsEngine/user/modules
-Non MVC style modules
-
-/XoopsEngine/usr/plugins
-Plugin folders
-
-/XoopsEngine/usr/applets
-Applet folders
-
-/XoopsEngine/usr/themes
-Theme folders
+For Xoops Engine code, check http://github.com/xoops/engine
+For legacy code, check http://github.com/xoops/legacy
